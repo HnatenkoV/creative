@@ -24,10 +24,7 @@
 header {
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+    z-index: 1;
     padding-top: 32px;
 }
 header p {
@@ -101,26 +98,20 @@ h1 {
     color: #181818;
 }
 
-.portfolio_btn {
-    background: #FFFFFF;
-    border-radius: 40px;
-    padding: 23px 47px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 25px;
-    margin-right: 10px;
+.intro li {
+    list-style: none;
 }
-
-.application_btn {
+.intro li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #181818;
     background: #FFFFFF;
     border-radius: 40px;
     padding: 23px 47px;
     border: none;
-    cursor: pointer;
     font-size: 18px;
     line-height: 25px;
-    margin-left: 10px;
+    margin-right: 20px;
 }
 
 /* about_style */
