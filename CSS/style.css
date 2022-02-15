@@ -251,7 +251,7 @@ h2 {
 /* portfolio */
 
 .portfolio {
-    padding: 50px 0 123px 0;
+    padding: 50px 0 73px 0;
 }
 
 .portfolio img {
@@ -300,7 +300,7 @@ h2 {
 .a1 {
     display: block;
     text-align: center;
-    margin-right: 140px;
+    margin-right: 160px;
 }
 .see_more {
     text-align: center;
@@ -314,3 +314,119 @@ h2 {
     font-size: 26px;
     line-height: 29px;
 }
+
+/* guidelines */
+.guide_lines {
+    padding: 50px 0 100px 0;
+}
+
+.ai_fa {
+    align-items: flex-end;
+}
+
+.mb-77 {
+    margin-bottom: 77px;
+}
+.guide_lines_txt span {
+    font-family: '20 Kopeek';
+    font-size: 26px;
+    line-height: 29px;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 19px;
+}
+
+.guide_lines_txt p {
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+}
+
+.guide_lines_txt p:first-child {
+    max-width: 406px;
+    color: #FFFFFF;
+    margin: -11px -39px -18px -14px;
+    font-family: '20 Kopeek';
+    background: #2B59C3;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.guide_lines_txt p:last-child {
+    max-width: 431px;
+    margin-top: 33px;
+}
+
+.application h2 {
+    margin-bottom: 11px;
+}
+
+.application p {
+    margin-bottom: 27px;
+    font-family: '20 Kopeek';
+    font-size: 26px;
+    line-height: 29px;
+    color: #181818;
+}
+
+
+.contacts label {
+    display: none;
+}
+
+.mb-21 {
+    margin-bottom: 21px;
+}
+
+.contacts input:first-child {
+    margin-right: 30px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+    padding: 23px 237px 23px 29px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+}
+
+.contacts input:last-child{
+    margin-right: 30px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+    padding: 23px 147px 23px 29px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+}
+
+.application button {
+    text-align: center;
+    text-decoration: none;
+    background-color: #2B59C3;
+    color: #FFFFFF;
+    border-radius: 40px;
+    padding: 23px 47px;
+    border: none;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.i_agree input {
+    margin-right: 10px;
+}
+
+.i_agree label {
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+}
+
+.i_agree label a {
+    text-decoration: none;
+}
+
+
+
