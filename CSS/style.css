@@ -251,7 +251,7 @@ h2 {
 /* portfolio */
 
 .portfolio {
-    padding: 50px 0 100px 0;
+    padding: 50px 0 123px 0;
 }
 
 .portfolio img {
@@ -268,7 +268,7 @@ h2 {
 }
 
 .portfolio p {
-    max-width: 233px;
+    max-width: 232px;
     font-family: '20 Kopeek';
     font-size: 18px;
     line-height: 25px;
@@ -276,7 +276,7 @@ h2 {
 
 }
 
-.see_prjct{
+.see_project{
     display: inline-block;
     text-decoration: none;
     color: #181818;
@@ -287,7 +287,6 @@ h2 {
     font-family: '20 Kopeek';
     font-size: 18px;
     line-height: 25px;
-    margin-right: 20px;
 }
 
 .mb-100 {
@@ -298,9 +297,13 @@ h2 {
     margin-bottom: 53px;
 }
 
+.a1 {
+    display: block;
+    text-align: center;
+    margin-right: 140px;
+}
 .see_more {
     text-align: center;
-    display: inline-block;
     text-decoration: none;
     background-color: #2B59C3;
     color: #FFFFFF;
@@ -308,9 +311,6 @@ h2 {
     padding: 23px 47px;
     border: none;
     font-family: '20 Kopeek';
-    font-size: 18px;
-    line-height: 25px;
-}
-.dsad {
-    align-items: center;
+    font-size: 26px;
+    line-height: 29px;
 }
