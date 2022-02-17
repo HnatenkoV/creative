@@ -298,9 +298,7 @@ h2 {
 }
 
 .a1 {
-    display: block;
-    text-align: center;
-    margin-right: 160px;
+    margin-left: 351px;
 }
 .see_more {
     text-align: center;
@@ -428,5 +426,128 @@ h2 {
     text-decoration: none;
 }
 
+/* stage */
+
+.stage {
+    padding: 50px 0 100px 0;
+}
+.stage h3 {
+    font-family: '20 Kopeek';
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    margin-bottom: 85px;
+}
+
+.jc_fs {
+    justify-content: flex-start;
+}
+.firm_style {
+    max-width: 283px;
+    margin-right: 97px;
+}
+.firm_style img {
+    margin-bottom: 22px;
+}
+
+.firm_style p {
+    font-family: '20 Kopeek';
+    font-size: 26px;
+    line-height: 29px;
+    color: #181818;
+}
+
+.lamp {
+    margin-bottom: 71px;
+}
+
+.letter {
+    margin-bottom: 103px;
+}
+
+.book {
+    margin-bottom: 38px;
+}
+
+.creation_points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    max-width: 580px;
+}
 
 
+.first_col {
+    max-width: 166px;
+}
+
+.second_col {
+    max-width: 164px;
+}
+
+.third_col p{
+    max-width: 183px;
+}
+
+.third_col h4{
+    max-width: 200px;
+}
+
+.creation_points h4 {
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+.creation_points p {
+    font-family: '20 Kopeek';
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
+
+}
+
+/* quality_assurance */
+.quality_assurance {
+    padding: 50px 0 100px 0;
+    background: url("../image/backpack.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.quality_assurance h3 {
+    font-family: '20 Kopeek';
+    font-size: 55px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin: 282px 0 69px 0;
+}
+
+.advantages {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.advantages p {
+    position: relative;
+    max-width: 160px;
+    font-family: '20 Kopeek';
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.advantages span {
+    position: absolute;
+    top: -25px;
+    left: -35px;
+    font-family: '20 Kopeek';
+    font-size: 55px;
+    line-height: 100%;
+    color: #FFFFFF;
+
+}
