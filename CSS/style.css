@@ -429,7 +429,7 @@ h2 {
 /* stage */
 
 .stage {
-    padding: 50px 0 100px 0;
+    padding: 50px 0 150px 0;
 }
 .stage h3 {
     font-family: '20 Kopeek';
@@ -512,21 +512,20 @@ h2 {
 
 /* quality_assurance */
 .quality_assurance {
-    padding: 50px 0 100px 0;
+    padding: 282px 0 80px 0;
     background: url("../image/backpack.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
-.quality_assurance h3 {
+.quality_assurance h3{
     font-family: '20 Kopeek';
     font-size: 55px;
     line-height: 55px;
     color: #FFFFFF;
-    margin: 282px 0 69px 0;
+    margin-bottom: 65px;
 }
 
 .advantages {
-    margin-bottom: 80px;
     display: flex;
     justify-content: space-around;
 
@@ -543,8 +542,8 @@ h2 {
 
 .advantages span {
     position: absolute;
-    top: -25px;
-    left: -35px;
+    top: -30px;
+    left: -37px;
     font-family: '20 Kopeek';
     font-size: 55px;
     line-height: 100%;
