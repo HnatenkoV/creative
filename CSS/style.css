@@ -297,10 +297,8 @@ h2 {
     margin-bottom: 53px;
 }
 
-.a1 {
-    margin-left: 351px;
-}
 .see_more {
+    margin-left: 351px;
     text-align: center;
     text-decoration: none;
     background-color: #2B59C3;
@@ -397,7 +395,7 @@ h2 {
     border-radius: 10px;
 }
 
-.application button {
+.btn_1 {
     text-align: center;
     text-decoration: none;
     background-color: #2B59C3;
