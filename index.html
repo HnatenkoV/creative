@@ -8,21 +8,22 @@
     <title>FREE.creative</title>
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
 </head>
 <body>
 <header>
     <div class="container d_flex jc_sb ai_center">
-        <div class="d_flex ai_center">
+        <div class="logo_1 d_flex ai_center">
             <img src="image/logo.svg" alt="logo">
             <p>Разрабатываем фирменные стили с 2009 года</p>
         </div>
-        <div class="d_flex ai_center">
+        <div class="head_social d_flex ai_center">
             <a class="tel" href="#">8 (495) 156-39-11</a>
             <a class="circle" href="#"><i class="fab fa-facebook-f"></i></a>
             <a class="circle" href="#"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
-</header>
+</header>  <!-------------header------------->
 <section class="intro">
     <div class="container">
         <h1>Вам нужен фирменный <br>стиль или ребрендинг?</h1>
@@ -119,7 +120,7 @@
                     <h3>Vilata</h3>
                     <a class="see_project" href="#">Смотреть проект</a>
                 </div>
-                <p>Бренд натуральных и вкусных соусов</p>
+                <p>Бренд натуральных и <br>вкусных соусов</p>
             </div>
         </div>
         <div class="mb-53">
@@ -157,23 +158,28 @@
             <h2>Оставьте заявку на разработку вашего продукта</h2>
             <p>Наши эксперты свяжутся с вами в ближайшее время</p>
             <form name="contacts" action="" method="post">
-                <div class="contacts d_flex mb-21">
+                <div class="contacts d_flex">
                     <div>
-                        <label for="name">Имя</label>
+                        <div class="d_flex mb-21">
+                    <div>
+                        <label class="d_n" for="name">Имя</label>
                         <input name="name" type="text" placeholder="Ваше Имя" id="name">
                     </div>
                     <div>
-                        <label for="phone_number">Номер телефона</label>
+                        <label class="d_n" for="phone_number">Номер телефона</label>
                         <input name="phone_number" type="tel" placeholder="+7 (999) 999-99-99" id="phone_number">
                     </div>
-                    <button class="btn_1" href="#">Оставить заявку</button>
+                        </div>
+                        <div class="i_agree">
+                            <label for="i_agree">
+                                <input name="i_agree" type="checkbox" id="i_agree">Я принимаю <a href="#">условия передачи
+                                персональных данных</a>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="application_btn" href="#">Оставить заявку</button>
                 </div>
-                <div class="i_agree">
-                    <label for="i_agree">
-                        <input name="i_agree" type="checkbox" id="i_agree">Я принимаю <a href="#">условия передачи
-                        персональных данных</a>
-                    </label>
-                </div>
+
             </form>
         </div>
     </div>
@@ -181,64 +187,66 @@
 <section class="stage">
     <div class="container">
         <h3>Этапы создания <br>фирменного стиля <br>и гайдлайна</h3>
-        <div class="d_flex jc_fs">
             <div class="firm_style">
+                <div class="first_row d_flex">
                 <div class="lamp">
                     <img src="../creative/image/lamp.svg" alt="lamp">
                     <p>Погружение в <br>креативный поиск</p>
                 </div>
+                    <div class="lamp_col_1">
+                        <h4>Иследование <br>среды</h4>
+                        <p>Изучаем нишу и конкурентное поле, находим подходящую идею будущей коммуникации</p>
+                    </div>
+                    <div class="lamp_col_2">
+                        <h4>Поиск <br>тональности </h4>
+                        <p>Решаем, какая тональность подходит именно вашему бренду. Дерзкий характер или спокойный, строгий
+                            <br>или ультрамодный</p>
+                    </div>
+                    <div class="lamp_col_3">
+                        <h4>Формирование мудбордов</h4>
+                        <p>Составляем подборку креативных проектов, которые соответствуют
+                            поставленной <br>тональности стиля</p>
+                    </div>
+                </div>
+                <div class="second_row d_flex">
                 <div class="letter">
                     <img src="../creative/image/letter.svg" alt="letter">
                     <p>Разработка визуальной и вербальной айдентики</p>
                 </div>
-                <div class="book">
-                    <img src="../creative/image/book.jpg" alt="book">
-                    <p>Создание гайдлайна</p>
-                </div>
-            </div>
-            <div class="creation_points">
-                <div class="first_col">
-                    <h4>Иследование <br>среды</h4>
-                    <p>Изучаем нишу и конкурентное поле, находим подходящую идею будущей коммуникации</p>
-                </div>
-                <div class="second_col">
-                    <h4>Поиск <br>тональности </h4>
-                    <p>Решаем, какая тональность подходит именно вашему бренду. Дерзкий характер или спокойный, строгий
-                        <br>или ультрамодный</p>
-                </div>
-                <div class="third_col">
-                    <h4>Формирование мудбордов</h4>
-                    <p>Составляем подборку креативных проектов, которые соответствуют
-                        поставленной <br>тональности стиля</p>
-                </div>
-                <div class="first_col">
+                <div class="letter_col_1">
                     <h4>Название <br>и слоганы</h4>
                     <p>Придумываем название для вашего бренда и запоминающиеся слоганы</p>
                 </div>
-                <div class="second_col">
+                <div class="letter_col_2">
                     <h4>Разработка логотипа, цвет</h4>
                     <p>Создаем логотип – основной графический символ, важнейший элемент коммуникации, подбираем цветовую
                         палитру для всей коммуникации</p>
                 </div>
-                <div class="third_col">
+                <div class="letter_col_3">
                     <h4>Основные носители фирменного стиля</h4>
                     <p>Создаем дополнительные элементы дизайна: иллюстрации, фото, типографика. Прорабатываем дизайн на
                         всех носителях. </p>
                 </div>
-                <div class="first_col">
-                    <h4>Основные <br>принципы стиля</h4>
-                    <p>Выявляем основные принципы, на которых построен фирменный стиль</p>
                 </div>
-                <div class="second_col">
-                    <h4>Составление гайдлайна</h4>
-                    <p>Наглядно показываем все правила использования фирменного стиля, закрепляем результат в виде
-                        презентации</p>
+                <div class="third_row d_flex">
+                <div class="book">
+                    <img src="../creative/image/book.svg" alt="book">
+                    <p>Создание гайдлайна</p>
                 </div>
-                <div class="third_col">
-                    <h4>Вы получаете готовый бренд с набором всех необходимых инструментов</h4>
+                    <div class="book_col_1">
+                        <h4>Основные <br>принципы стиля</h4>
+                        <p>Выявляем основные принципы, на которых построен фирменный стиль</p>
+                    </div>
+                    <div class="book_col_2">
+                        <h4>Составление гайдлайна</h4>
+                        <p>Наглядно показываем все правила использования фирменного стиля, закрепляем результат в виде
+                            презентации</p>
+                    </div>
+                    <div class="book_col_3">
+                        <h4>Вы получаете готовый бренд с набором всех необходимых инструментов</h4>
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
 </section> <!--------- stage ---------------->
 <section class="quality_assurance">
@@ -246,23 +254,78 @@
         <h3>Гарантия качества: <br>5 фундаментальных преимуществ
             <br>работать с нами</h3>
         <div class="advantages">
-            <div><p><span>1</span>Разработкой вашего фирменного стиля займется команда профессионалов с высшим
-                профильным образованием.</p></div>
-            <div><p><span>2</span>Все права на результат работ переходят от Исполнителя к Заказчику и это закреплено
-                юридически в нашем с вами Договоре.</p></div>
-            <div><p><span>3</span>Все сотрудники компании строго соблюдают правила коммерческой тайны по вашему проекту,
+            <p><span>1</span>Разработкой вашего фирменного стиля займется команда профессионалов с высшим
+                профильным образованием.</p>
+           <p><span>2</span>Все права на результат работ переходят от Исполнителя к Заказчику и это закреплено
+                юридически в нашем с вами Договоре.</p>
+            <p><span>3</span>Все сотрудники компании строго соблюдают правила коммерческой тайны по вашему проекту,
                 мы никогда не разглашаем стоимость разработки вашего проекта и <br>любые детали, связанные с проектом.
-            </p></div>
-            <div><p><span>4</span>Мы гарантируем, что любая разработка проходит проверку на оригинальность, вы получайте
-                действительно уникальный продукт</p></div>
-            <div><p><span>5</span>Мы имеем опыт работы с малым, средним и крупным бизнесом, а также с международными
+            </p>
+            <p><span>4</span>Мы гарантируем, что любая разработка проходит проверку на оригинальность, вы получайте
+                действительно уникальный продукт</p>
+            <p><span>5</span>Мы имеем опыт работы с малым, средним и крупным бизнесом, а также с международными
                 корпорациями Наша репутация - это 9-ть лет успешной работы. 8-мь из 10-ти клиентов после совместной
                 разработки фирменного стиля обращаются к нам повторно: за созданием сайта, контента для социальных сетей
                 или по любой другой задаче.</p>
-            </div>
         </div>
     </div>
 </section> <!--------- quality_assurance ---------------->
+<footer>
+    <div class="container">
+        <div class="d_flex mb-127">
+        <div class="connect_with_us">
+            <h4>Связаться с нами</h4>
+            <form name="footer_contacts" action="" method="post">
+                <div class="footer_contacts d_flex fd_c">
+                    <div class="name_1 mb-10">
+                        <label for="name_1">Имя</label>
+                        <input name="name" type="text" placeholder="Ваше Имя" id="name_1">
+                    </div>
+                    <div class="phone">
+                        <label for="phone">Номер телефона</label>
+                        <input name="phone_number" type="tel" placeholder="+7 (999) 999-99-99" id="phone">
+                    </div>
+                </div>
+                <div class="d_flex fd_c">
+                    <label class="agree" for="agree">
+                        <input name="agree" type="checkbox" id="agree">Я принимаю <a href="#">условия передачи
+                        персональных данных</a>
+                    </label>
+                    <button class="footer_btn" href="#">Оставить заявку</button>
+                </div>
+            </form>
+        </div>
+        <div class="address">
+            <h4>Контакты</h4>
+            <p>8 (495) 156-39-11</p>
+            <p>brand@free-creative.com</p>
+            <p>Москва, Садовническая улица 69</p>
+        </div>
+        </div>
+        <div class="in_media">
+            <h4>Мы в СМИ</h4>
+                <div class="d_flex jc_sb">
+                    <div class="history d_flex fd_c jc_sb">
+                        <a href="#">История агентства <br>FREE.creative</a>
+                        <a href="#">vc.ru</a>
+                    </div>
+                    <div class="tradition d_flex fd_c jc_sb">
+                        <a href="#">Традиции и современность: брендинг ресторана-пекарни «Ешь Хлеб»</a>
+                        <a href="#">vc.ru</a>
+                    </div>
+                    <div class="strength d_flex fd_c jc_sb">
+                        <a href="#">Четыре боли крупных клиентов и целительная сила аккаунтинга</a>
+                        <a href="#">vc.ru</a>
+                    </div>
+                    <div class="cocktails d_flex fd_c jc_sb">
+                        <a href="#">Как выводить на рынок бренды будущего: кейс инновационной клиники витаминных коктейлей</a>
+                        <a href="#">sostav.ru</a>
+                    </div>
+                </div>
+        </div>
+        <a class="copyright" href="#">@FREE.creative 2008—2020</a>
+    </div>
+</footer> <!--------------------footer---------------------->
 <script src="https://kit.fontawesome.com/022778fa0f.js" crossorigin="anonymous"></script>
 </body>
 </html>
