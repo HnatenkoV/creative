@@ -44,14 +44,18 @@ header {
     position: absolute;
     padding-top: 32px;
 }
-header p {
+
+.logo_1 img {
+    height: 35px;
+    width: 84px;
+}
+.logo_1 p {
     font-family: '20 Kopeek';
     max-width: 193px;
     margin-left: 22px;
     font-size: 15px;
     line-height: 19px;
     color: #FFFFFF;
-
 }
 
 header a {
@@ -133,7 +137,7 @@ h1 {
 .intro li {
     list-style: none;
 }
-.intro li a {
+.intro_portfolio, .lost_appl {
     display: inline-block;
     text-decoration: none;
     color: #181818;
@@ -203,11 +207,13 @@ about_style_img {
 .col {
     display: flex;
     justify-content: space-around;
+
+}
+.col div {
+    position: relative;
 }
 
-
 .col p {
-    position: relative;
     font-family: '20 Kopeek';
     font-size: 18px;
     line-height: 25px;
@@ -266,9 +272,13 @@ about_style_img {
     background: #2B59C3;
     border-radius: 5px;
     padding: 13px;
-
+    cursor: pointer;
 }
 
+.style_cost_txt p:last-child:hover {
+    background-color: #1343be;
+    transition: .3s;
+}
 /* portfolio */
 
 .portfolio {
@@ -412,6 +422,9 @@ about_style_img {
 
 .mb-21 {
     margin-bottom: 21px;
+}
+.contacts {
+    display: flex;
 }
 
 .contacts input:first-child {
@@ -654,7 +667,7 @@ footer .address p {
 }
 
 .mb-127 {
-    margin-bottom: 172px;
+    margin-bottom: 127px;
 }
 .footer_contacts .name_1 input {
     margin-right: 30px;
@@ -710,9 +723,12 @@ footer .address p {
 .in_media {
     margin-bottom: 38px;
 }
+.fww {
+    display: flex;
+    justify-content: space-between;
+}
 
 .history {
-    list-style: none;
     max-width: 162px;
     max-height: 84px;
     background: #2B59C3;
@@ -726,7 +742,6 @@ footer .address p {
 }
 
 .tradition {
-    list-style: none;
     max-width: 243px;
     max-height: 109px;
     background: #2B59C3;
@@ -740,7 +755,6 @@ footer .address p {
 }
 
 .strength {
-    list-style: none;
     max-width: 237px;
     max-height: 109px;
     background: #2B59C3;

@@ -1,0 +1,719 @@
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 930px;
+        margin: auto;
+    }
+
+    header {
+        width: 100%;
+        position: absolute;
+        padding-top: 32px;
+    }
+    header p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .intro {
+        padding-top: 301px;
+        background: url('../image/background_1_992.jpg') center no-repeat;
+        height: 100vh;
+    }
+
+    .intro p {
+        margin: 25px 0 55px 0;
+        font-size: 26px;
+        line-height: 29px;
+    }
+
+    .intro_portfolio, .lost_appl {
+        padding: 19px 47px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 30px;
+    }
+
+    /* about_style */
+    .about_style {
+        padding: 80px 0 120px 0;
+    }
+
+    .about_style {
+        padding: 80px 0 120px 0;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 37px;
+    }
+
+    .about_style_txt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about_style img {
+        width: 450px;
+        height: 308px;
+    }
+
+    .about_style_txt {
+        min-height: 308px;
+        max-width: 450px;
+    }
+
+    .about_style h3 {
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 62px;
+    }
+
+    .col p {
+        font-size: 16px;
+        line-height: 21px;
+        max-width: 120px ;
+    }
+
+    .col span {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .last_col p:last-child {
+        max-width: 180px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .style_cost_txt {
+        max-width: 370px;
+    }
+
+    .style_cost_txt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .style_cost_txt p:last-child {
+        margin: 0;
+        padding: 9px;
+
+    }
+
+    .style_cost img {
+        width: 530px;
+        height: 330px;
+    }
+
+    /* portfolio */
+
+    .portfolio {
+        padding: 0 0 120px 0;
+    }
+
+    .portfolio img {
+        width: 930px;
+        height: 548px;
+        margin-bottom: 41px;
+    }
+
+    .portfolio h3 {
+        margin-right: 100px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .portfolio p {
+        max-width: 232px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .see_project{
+        border-radius: 40px;
+        padding: 17px 47px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .see_more {
+        margin-left: 315px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    /* guidelines */
+
+    .guide_lines {
+        padding: 0 0 100px 0;
+    }
+
+    .guide_lines img {
+        height: 366px;
+        width: 530px;
+    }
+
+    .guide_lines_txt span {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 19px;
+    }
+
+    .guide_lines_txt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .guide_lines_txt p:first-child {
+        max-width: 370px;
+        margin: -14px -5px -13px -12px;
+        padding: 10px;
+    }
+
+    .guide_lines_txt p:last-child {
+        max-width: 370px;
+        margin-top: 33px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .i_agree {
+        margin-bottom: 30px;
+    }
+    .application_btn {
+        border-radius: 40px;
+        padding: 23px 47px;
+        border: none;
+        font-family: '20 Kopeek';
+        font-size: 18px;
+        line-height: 25px;
+        cursor: pointer;
+    }
+    /* stage */
+
+    .stage {
+        padding: 0 0 100px 0;
+    }
+    .stage h3 {
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 80px;
+    }
+
+    .firm_style h4 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+    .firm_style p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .lamp p, .letter p, .book p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .first_row {
+        max-width: 931px;
+    }
+    .second_row {
+        max-width: 929px;
+    }
+    .third_row {
+        max-width: 931px;
+    }
+
+    .lamp {
+        max-width: 210px;
+        margin-right: 160px;
+        margin-bottom: 71px;
+    }
+
+    .lamp_col_1 {
+        margin-right: 50px;
+        max-width: 160px;
+    }
+    .lamp_col_2 {
+        margin-right: 80px;
+        max-width: 160px;
+    }
+    .lamp_col_3 {
+        max-width: 160px;
+    }
+    .letter {
+        max-width: 240px;
+        margin-right: 80px;
+        margin-bottom: 103px;
+    }
+    .letter_col_1 {
+        margin-right: 44px;
+        max-width: 166px;
+    }
+    .letter_col_2 {
+        margin-right: 76px;
+        max-width: 164px;
+    }
+    .letter_col_3 {
+        max-width: 159px;
+    }
+
+    .book {
+        max-width: 119px;
+        margin-right: 201px;
+        margin-bottom: 38px;
+    }
+
+    .book_col_1 {
+        margin-right: 50px;
+        max-width: 160px;
+    }
+
+    .book_col_2 {
+        margin-right: 74px;
+        max-width: 166px;
+    }
+    .book_col_3 {
+        max-width: 161px;
+    }
+
+    /* quality_assurance */
+    .quality_assurance {
+        padding: 97px 0 60px 0;
+    }
+
+    .quality_assurance h3{
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 70px;
+    }
+
+    .advantages p {
+        max-width: 141px;
+        font-family: '20 Kopeek';
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* footer */
+    footer {
+        padding: 100px 0 20px 0;
+    }
+
+    .connect_with_us {
+        margin-right: 63px;
+    }
+    footer h4 {
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 30px;
+    }
+
+    .history {
+        max-width: 162px;
+        max-height: 84px;
+        padding: 6px 80px 16px 13px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .tradition {
+        max-width: 200px;
+        max-height: 109px;
+        padding: 6px 4px 16px 8px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .strength {
+        max-width: 190px;
+        max-height: 109px;
+        padding: 6px 12px 16px 6px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .cocktails {
+        max-width: 190px;
+        max-height: 140px;
+        padding: 6px 8px 16px 16px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 689px;
+        margin: auto;
+    }
+
+    .head_social {
+        display: none;
+    }
+
+    .intro {
+        padding: 307px 0 350px 0;
+        background: url('../image/background_1_768.jpg') center no-repeat;
+        height: 100vh;
+    }
+
+
+    .intro h1 {
+        color: #FFFFFF;
+    }
+    .intro ul {
+        flex-direction: column;
+    }
+
+    .intro p {
+        margin: 25px 0 78px 0;
+        color: #FFFFFF;
+    }
+
+    .intro_portfolio {
+        padding: 19px 83px 19px 47px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 42px;
+    }
+    .lost_appl{
+        padding: 19px 47px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* about_style */
+    .about_style {
+        padding: 100px 0 120px 0;
+    }
+
+    .about_style_content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 141px;
+    }
+    .about_style {
+        padding: 80px 0 120px 0;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 37px;
+    }
+
+    .about_style_txt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about_style img {
+        margin-bottom: 30px;
+        width: 450px;
+        height: 308px;
+    }
+
+    .about_style_txt {
+        min-height: 308px;
+        max-width: 450px;
+    }
+
+    .about_style h3 {
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 62px;
+    }
+
+    .col {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .first_col {
+        max-width: 83px;
+        margin-left: 39px;
+        margin-right: 118px;
+    }
+
+    .second_col {
+        max-width: 107px;
+        margin-right: 93px;
+    }
+
+    .third_col {
+        max-width: 122px;
+        margin-right: 124px;
+        margin-bottom: 72px;
+    }
+
+    .fourth_col {
+        max-width: 83px;
+        margin-left: 39px;
+        margin-right: 158px;
+    }
+
+
+    .col span {
+        position: absolute;
+        max-width: 259px;
+        top: 0;
+        left: -35px;
+        color: #181818;
+    }
+    .last_col p:first-child {
+        max-width: 140px;
+    }
+
+    .last_col p:last-child {
+        max-width: 259px;
+        margin-top: 14px;
+    }
+
+    .style_cost {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .style_cost_txt {
+        max-width: 539px;
+    }
+
+    .style_cost_txt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .style_cost_txt p:last-child {
+        margin: 0;
+        padding: 9px;
+
+    }
+
+    .style_cost img {
+        width: 689px;
+        height: 447px;
+    }
+
+    /* portfolio */
+
+    .portfolio {
+        padding: 0 0 120px 0;
+    }
+
+    .portfolio img {
+        width: 689px;
+        height: 406px;
+        margin-bottom: 41px;
+    }
+
+    .see_more {
+        margin-left: 240px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    /* guidelines */
+
+    .guide_lines {
+        padding: 0 0 100px 0;
+    }
+    .guide_lines_content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .guide_lines img {
+        content: url("../image/guideline_768.jpg");
+        height: 302px;
+        width: 450px;
+        margin-bottom: 30px;
+    }
+
+    .guide_lines_txt span {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 19px;
+    }
+
+    .guide_lines_txt p:first-child {
+        max-width: 450px;
+    }
+    .guide_lines_txt p:last-child {
+        max-width: 450px;
+    }
+
+    .contacts {
+        flex: none;
+        flex-direction: column;
+    }
+
+    .contacts .d_flex{
+        flex-direction: column;
+    }
+
+    .contacts .d_flex div:first-child{
+        margin-bottom: 20px;
+    }
+
+    .contacts input:last-child{
+        padding: 23px 276px 23px 29px;
+    }
+    /* stage */
+
+    .first_row {
+        max-width: 931px;
+        flex-wrap: wrap;
+    }
+    .second_row {
+        max-width: 929px;
+        flex-wrap: wrap;
+    }
+    .third_row {
+        max-width: 931px;
+        flex-wrap: wrap;
+    }
+
+    .lamp {
+        max-width: 210px;
+        margin-right: 340px;
+        margin-bottom: 18px;
+    }
+
+    .lamp_col_1 {
+        margin-right: 50px;
+        max-width: 160px;
+        margin-bottom: 50px;
+    }
+    .lamp_col_2 {
+        margin-right: 80px;
+        max-width: 160px;
+    }
+    .lamp_col_3 {
+        max-width: 160px;
+    }
+    .letter {
+        max-width: 240px;
+        margin-right: 245px;
+        margin-bottom: 18px;
+    }
+    .letter_col_1 {
+        margin-right: 44px;
+        max-width: 166px;
+    }
+    .letter_col_2 {
+        margin-right: 76px;
+        max-width: 164px;
+        margin-bottom: 50px;
+    }
+    .letter_col_3 {
+        max-width: 159px;
+    }
+
+    .book {
+        max-width: 119px;
+        margin-right: 365px;
+        margin-bottom: 18px;
+    }
+
+    .book_col_1 {
+        margin-right: 50px;
+        max-width: 160px;
+    }
+
+    .book_col_2 {
+        margin-right: 74px;
+        max-width: 166px;
+    }
+    .book_col_3 {
+        max-width: 161px;
+    }
+
+    /* quality_assurance */
+    .quality_assurance {
+        padding: 32px 0 0 0;
+    }
+
+    .quality_assurance h3{
+       max-width: 619px;
+    }
+
+    .advantages {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .advantages p {
+        max-width: 141px;
+        margin-right: 59px;
+        margin-bottom: 50px;
+    }
+
+    .advantages p:last-child {
+        max-width: 339px;
+        font-family: '20 Kopeek';
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* footer */
+    footer {
+        padding: 119px 0 20px 0;
+    }
+
+    .connect_with_us {
+        margin-bottom: 60px;
+    }
+
+    footer .container .d_flex {
+        flex-direction: column;
+    }
+
+    .fww {
+        flex-wrap: wrap;
+        max-width: 460px;
+    }
+    .history {
+        padding: 6px 45px 16px 13px;
+    }
+
+    .tradition {
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 420px) {
+
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
