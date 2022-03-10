@@ -154,6 +154,7 @@ h1 {
     font-size: 55px;
     line-height: 55px;
     color: #181818;
+    animation: h1 2s;
 }
 
 .intro p {
@@ -162,6 +163,7 @@ h1 {
     font-size: 34px;
     line-height: 37px;
     color: #181818;
+    animation: p 2s;
 }
 
 .intro li {
@@ -179,6 +181,7 @@ h1 {
     font-size: 18px;
     line-height: 25px;
     margin-right: 20px;
+    animation: rotating 3s;
 }
 
 .intro li a:hover {
@@ -856,3 +859,39 @@ footer .address p {
         top: 0;
     }
 }
+
+@keyframes h1 {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes p {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+}
+
+@keyframes rotating {
+    to {transform: rotate(360deg);}
+}
+
+
