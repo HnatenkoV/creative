@@ -1020,7 +1020,7 @@
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 391px) {
 
     .container {
         max-width: 290px;
@@ -1038,9 +1038,9 @@
     }
 
     .intro {
-        padding: 230px 0 0 0;
+        padding: 140px 0 0 0;
         background: url('../image/background_1_768.jpg') center no-repeat;
-        height: 65vh;
+        height: 75vh;
     }
 
     .navbar_toggle {
