@@ -1038,9 +1038,9 @@
     }
 
     .intro {
-        padding: 140px 0 0 0;
-        background: url('../image/background_1_768.jpg') center no-repeat;
-        height: 75vh;
+        padding: 140px 0 20px 0;
+        background: url('../image/background_1_576.jpg') center no-repeat;
+        height: 40vh;
     }
 
     .navbar_toggle {
@@ -1048,11 +1048,12 @@
     }
 
     .intro h1 {
-        max-width: 240px;
+        font-size: 28px;
+        max-width: 300px;
     }
 
     .intro p {
-        margin: 40px 0 80px 0;
+        margin: 20px 0 40px 0;
         max-width: 184px;
     }
 
