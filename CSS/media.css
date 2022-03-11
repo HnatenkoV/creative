@@ -721,7 +721,7 @@
     .intro {
         padding: 148px 0 0 0;
         background: url('../image/background_1_576.jpg') center no-repeat;
-        height: 58vh;
+        height: 55vh;
     }
 
     .navbar_toggle {
@@ -1020,9 +1020,10 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 391px) {
+
     .container {
-        max-width: 689px;
+        max-width: 290px;
         margin: auto;
     }
 
@@ -1030,10 +1031,16 @@
         display: none;
     }
 
+    .logo_1 p {
+        max-width: 106px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
     .intro {
-        padding: 307px 0 350px 0;
-        background: url('../image/background_1_360.jpg') center no-repeat;
-        height: 85vh;
+        padding: 230px 0 0 0;
+        background: url('../image/background_1_768.jpg') center no-repeat;
+        height: 65vh;
     }
 
     .navbar_toggle {
@@ -1041,160 +1048,143 @@
     }
 
     .intro h1 {
-        color: #FFFFFF;
+        max-width: 240px;
     }
+
+    .intro p {
+        margin: 40px 0 80px 0;
+        max-width: 184px;
+    }
+
     .intro ul {
         flex-direction: column;
     }
 
-    .intro p {
-        margin: 25px 0 78px 0;
-        color: #FFFFFF;
-    }
-
     .intro_portfolio {
         padding: 19px 83px 19px 47px;
-        font-size: 16px;
-        line-height: 22px;
-        margin-bottom: 42px;
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 20px;
     }
     .lost_appl{
         padding: 19px 47px;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 21px;
     }
 
     /* about_style */
     .about_style {
-        padding: 100px 0 120px 0;
+        padding: 56px 0 71px 0;
     }
 
     .about_style_content {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 141px;
+        margin-bottom: 90px;
     }
-    .about_style {
-        padding: 80px 0 120px 0;
-    }
+
     h2 {
-        font-size: 34px;
-        line-height: 37px;
+        max-width: 290px;
+        font-size: 32px;
+        line-height: 35px;
     }
 
     .about_style_txt p {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 21px;
     }
 
     .about_style img {
-        margin-bottom: 30px;
-        width: 450px;
-        height: 308px;
+        width: 290px;
+        height: 174px;
     }
 
     .about_style_txt {
-        min-height: 308px;
-        max-width: 450px;
+        min-height: 399px;
+        max-width: 290px;
     }
 
     .about_style h3 {
-        font-size: 45px;
-        line-height: 45px;
-        margin-bottom: 62px;
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 52px;
     }
 
     .col {
         display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-end;
     }
 
-
-    .first_col {
-        max-width: 83px;
-        margin-left: 39px;
-        margin-right: 118px;
+    .first_col, .second_col,
+    .third_col, .fourth_col,
+    .last_col {
+        max-width: 400px;
+        margin: 25px 0;
+        padding: 0;
     }
 
-    .second_col {
-        max-width: 107px;
-        margin-right: 93px;
+    .last_col {
+        margin: 25px 0 0 0;
+        max-height: 200px;
     }
-
-    .third_col {
-        max-width: 122px;
-        margin-right: 124px;
-        margin-bottom: 72px;
+    .col p {
+        max-width: 210px;
+        font-size: 15px;
     }
-
-    .fourth_col {
-        max-width: 83px;
-        margin-left: 39px;
-        margin-right: 158px;
-    }
-
 
     .col span {
-        position: absolute;
-        max-width: 259px;
-        top: 0;
-        left: -35px;
-        color: #181818;
-    }
-    .last_col p:first-child {
-        max-width: 140px;
+        top: -18px;
+        left: -80px;
     }
 
     .last_col p:last-child {
-        max-width: 259px;
-        margin-top: 14px;
-    }
+        max-width: 210px;
+        max-height: 86px;
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 16px;
 
-    .style_cost {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: flex-start;
     }
 
     .style_cost_txt {
-        max-width: 539px;
-    }
-
-    .style_cost_txt p {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .style_cost_txt p:last-child {
-        margin: 0;
-        padding: 9px;
-
+        max-width: 290px;
     }
 
     .style_cost img {
-        width: 689px;
-        height: 447px;
+        width: 290px;
+        height: 175px;
     }
 
     /* portfolio */
 
-    .portfolio {
-        padding: 0 0 120px 0;
+    .portfolio .d_flex {
+        flex-direction: column;
     }
 
+    .portfolio .ai_center {
+        align-items: flex-start;
+    }
+
+    .portfolio h3 {
+        margin-bottom: 11px;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .portfolio p {
+        margin-bottom: 30px;
+        max-width: 233px;
+    }
     .portfolio img {
-        width: 689px;
-        height: 406px;
-        margin-bottom: 41px;
+        width: 290px;
+        height: 163px;
+        margin-bottom: 15px;
     }
 
     .see_more {
-        margin-left: 240px;
-        font-size: 20px;
-        line-height: 22px;
+        margin-left: 35px;
     }
 
     /* guidelines */
@@ -1202,147 +1192,125 @@
     .guide_lines {
         padding: 0 0 100px 0;
     }
+
     .guide_lines_content {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
+
     .guide_lines img {
-        content: url("../image/guideline_768.jpg");
-        height: 302px;
-        width: 450px;
-        margin-bottom: 30px;
-    }
-
-    .guide_lines_txt span {
-        font-size: 20px;
-        line-height: 22px;
-        margin-bottom: 19px;
-    }
-
-    .guide_lines_txt p:first-child {
-        max-width: 450px;
-    }
-    .guide_lines_txt p:last-child {
-        max-width: 450px;
-    }
-
-    .contacts {
-        flex: none;
-        flex-direction: column;
-    }
-
-    .contacts .d_flex{
-        flex-direction: column;
-    }
-
-    .contacts .d_flex div:first-child{
-        margin-bottom: 20px;
+        height: 174px;
+        width: 288px;
+        margin-bottom: 23px;
     }
 
     .contacts input:last-child{
-        padding: 23px 276px 23px 29px;
+        padding: 23px 75px 23px 29px;
     }
     /* stage */
+    .stage h3 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 35px;
+    }
+
+    .firm_style h4 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .firm_style p {
+        font-size: 12px;
+        line-height: 16px;
+    }
 
     .first_row {
-        max-width: 931px;
+        max-width: 310px;
         flex-wrap: wrap;
     }
     .second_row {
-        max-width: 929px;
+        max-width: 310px;
         flex-wrap: wrap;
     }
     .third_row {
-        max-width: 931px;
+        max-width: 310px;
         flex-wrap: wrap;
     }
 
     .lamp {
         max-width: 210px;
-        margin-right: 340px;
+        margin-right: 10px;
         margin-bottom: 18px;
+    }
+
+    .lamp p, .letter p, .book p {
+        max-width: 210px;
+        font-size: 20px;
+        line-height: 22px;
     }
 
     .lamp_col_1 {
-        margin-right: 50px;
-        max-width: 160px;
+        margin-right: 15px;
+        max-width: 130px;
         margin-bottom: 50px;
     }
+
     .lamp_col_2 {
-        margin-right: 80px;
-        max-width: 160px;
+        max-width: 135px;
+        margin-right: 0;
     }
+
     .lamp_col_3 {
-        max-width: 160px;
+        max-width: 150px;
+        margin-bottom: 50px;
     }
+
     .letter {
         max-width: 240px;
-        margin-right: 245px;
+        margin-right: 10px;
         margin-bottom: 18px;
     }
     .letter_col_1 {
-        margin-right: 44px;
-        max-width: 166px;
+        margin-right: 20px;
+        max-width: 139px;
     }
     .letter_col_2 {
-        margin-right: 76px;
-        max-width: 164px;
+        margin-right: 10px;
+        max-width: 120px;
         margin-bottom: 50px;
     }
     .letter_col_3 {
-        max-width: 159px;
+        max-width: 138px;
+        margin-bottom: 50px;
     }
 
     .book {
-        max-width: 119px;
-        margin-right: 365px;
+        max-width: 230px;
+        margin-right: 10px;
         margin-bottom: 18px;
     }
 
     .book_col_1 {
-        margin-right: 50px;
-        max-width: 160px;
+        margin-right: 10px;
+        max-width: 130px;
     }
 
     .book_col_2 {
-        margin-right: 74px;
-        max-width: 166px;
+        margin-right: 10px;
+        max-width: 140px;
+        margin-bottom: 50px;
     }
     .book_col_3 {
-        max-width: 161px;
+        max-width: 150px;
     }
 
     /* quality_assurance */
     .quality_assurance {
-        padding: 32px 0 0 0;
-    }
-
-    .quality_assurance h3{
-        max-width: 619px;
-    }
-
-    .advantages {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-    }
-    .advantages p {
-        max-width: 141px;
-        margin-right: 59px;
-        margin-bottom: 50px;
-    }
-
-    .advantages p:last-child {
-        max-width: 339px;
-        font-family: '20 Kopeek';
-        font-size: 14px;
-        line-height: 18px;
+        display: none;
     }
 
     /* footer */
     footer {
-        padding: 119px 0 20px 0;
+        padding: 0 0 20px 0;
     }
 
     .connect_with_us {
@@ -1353,16 +1321,45 @@
         flex-direction: column;
     }
 
+    .footer_contacts .name_1 input {
+        padding: 23px 80px 23px 29px;
+    }
+    .footer_contacts .phone input {
+        padding: 23px 80px 23px 29px;
+    }
+
+    .agree {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
     .fww {
         flex-wrap: wrap;
-        max-width: 460px;
+        max-width: 289px;
     }
+
+    .in_media a {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
     .history {
-        padding: 6px 45px 16px 13px;
+        padding: 6px 150px 16px 13px;
+        margin-bottom: 20px;
     }
 
     .tradition {
-        margin-bottom: 30px;
+        padding: 6px 80px 16px 8px;
+        margin-bottom: 20px;
+    }
+
+    .strength {
+        padding: 6px 85px 16px 13px;
+        margin-bottom: 20px;
+    }
+
+    .cocktails {
+        padding: 6px 85px 16px 13px;
     }
 
     .copyright {
@@ -1370,6 +1367,7 @@
         line-height: 22px;
     }
 }
+
 @media only screen and (max-width: 360px) {
 
     .container {
@@ -1390,7 +1388,7 @@
     .intro {
         padding: 145px 0 0 0;
         background: url('../image/background_1_360.jpg') center no-repeat;
-        height: 77vh;
+        height: 65vh;
     }
 
     .navbar_toggle {
